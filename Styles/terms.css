@@ -1,0 +1,46 @@
+main{
+    padding-top: 30px;
+}
+#box{
+    
+    height: 700px;
+    width: 800px;
+    background: black;
+    border-radius: 10px;
+    margin:auto;
+    margin-top:50px;
+    box-shadow: 4px 4px 4px 4px #cfb6a6;
+    color:white;
+    padding:20px;
+    font-size: 20px;
+    color: #ff9100;
+}
+
+h2
+{
+    color:#ff9100;
+    text-align: center;
+}
+
+p{
+    font-weight: bold;
+    color:#fbc988;
+    
+}
+
+main li{
+ font-style: italic;
+}
+
+main{
+    background: url(../images/background1.jpg);
+    width:1340px;
+    height: 850px;
+}
+
+main h4{
+    font-weight: 16px;
+    font-style: italic;
+    font-weight: 100;
+    color: red;
+}

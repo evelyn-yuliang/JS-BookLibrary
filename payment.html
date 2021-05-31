@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <title> BookaBook</title>
+        <link  href="../Styles/main.css" rel="stylesheet">  
+        <link  href="../Styles/payment.css" rel="stylesheet">  
+        <link  href="../Styles/home1.css" rel="stylesheet">  
+
+
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+
+        <script>
+                function Validate()
+                {
+                    var cardVal=document.getElementById("cardvalue").value;
+                    //var prefix=cardVal.substring(0,2);
+                    var sum=0;
+                    if(cardVal.length!=16 && cardVal.length!=15)
+                    {   
+                        alert("Please enter a 15/16 digit card number")
+                    }
+                    else
+                    { alert("Website under progress...");
+                    }
+
+                }
+                </script>
+      </head>
+        <body>         
+            <header>
+                    <a href="Home.html" id="home"><img src="../images/logo.png" style="width: 200px; height:70px" alt="main logo"> </a>
+                    <a href="login.html" id="login">Login / Sign Up</a>
+            </header>
+            <nav id="menubar">
+        <ul>
+            <li><a href="Categories.html"> Category</a></li>
+            <li><a href="#">About Us </a> </li>
+            <li><a href="#">Account Activity </a>  </li>
+            <li> <a href="payment.html">Payment</a></li>
+            <li id="searchbox">
+                <form>
+                <input type="text" placeholder="Search for a books and authors.."   >
+                <button type="submit">Search</button>  </form> </li>
+        </ul>
+        </nav>
+        <main >
+            <div id="payment"> 
+                
+                <form id=CardSelect> 
+                        <h1 id="paymenthdr"> Payment
+                                <div class="cardsaccept">
+                                        <img src="../images/paymentmodes.png" alt="cards accepted">
+                                        <img src="../images/interac.png" size=2-px; alt="cards accepted">
+        
+                                      </div>
+                        </h1>
+                        <div id="paymentmode">
+                        <label for="Credit/Debit Card">Choose a payment method:  </label> 
+                        <input type="radio" id="cc" name="cc" value="Text">Credit/Debit Card</input>
+                         &nbsp;&nbsp;
+                        <input type="radio" id="q1" name="q1" value="emailresp">Interac</input>
+                         &nbsp;&nbsp;
+                        </div>
+                        
+                        <fieldset>
+                                <legend>Credit/Debit Payment:</legend>  
+        
+                    <label for="CardSelectforpayment">Please select you card type </label> <select id=cardsel> 
+                    <option>Please Select your CARD Type</option>
+                    <option value="VISA">VISA CARD</option>
+                    <option value="AMEX">AMEX CARD</option>
+                    <option value="MASTER">MASTER CARD</option>
+                </select><br></br>
+                
+                <label for="cname">Name on Card</label>
+                <input type="text" id="cname"  placeholder="Sahith Reddy Kaluvala">
+                <label for="cardvalue">Please Enter your card info </label>
+                <input type="text" id="cardvalue" placeholder="1111222233334444"></input> <br><br>
+                
+                <label for="CVV">Please enter CVV </label>
+                <input type="text" id="cvvvalue"  placeholder="123" minlength="3" maxlength="3" size="1"></input>   <br><br>
+                <span class="info">* CVV is the card security code, unique three digits number on the back of your card.</span>
+                <label for="Card Expiry Year" > Expiry Year </label>
+                <input type="text" id="expiryyear" placeholder="2019" minlength="4" maxlength="4" size="1"></input>  <br><br>
+                <label for="Card Expiry Mornth" > Expiry Month </label>
+                <input type="text" id="expirymon" placeholder="JAN" minlength="3" maxlength="3" size="1"></input>
+                <br><br>
+                <label for="Postalcode"minlength="6" maxlength="6" size="6">Postalcode </label> 
+                <input type="text" id="postalvalue" placeholder="M8V 3A6"></input>
+                <br><br>
+            
+                <input type="button" value="Proceed to Pay" onclick="Validate()"/>
+                <a id='payment_cancel'href="../cart.html"><input type="button" value=" Back to Cart " /></a>
+                                </fieldset>    
+            
+                
+                </form>
+            </div>
+        
+            
+        </main>
+
+
+        <footer>
+                <nav id="bottombar">
+                        <ul>
+                            <li><a href="contact.html">Contact Us </a> </li>
+                            <li> <a href="return.html">Return a Book </a> </li>
+                        </ul>
+                </nav>
+         <br><br>
+         &copy; 2019 Bookabook .All Rights Reserved.
+    </footer>
+
+    </body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+<link  href="../Styles/main.css" rel="stylesheet"> 
+<link  href="../Styles/cart.css" rel="stylesheet">   
+<title>BOOK-A-BOOK</title>
+</head>
+
+<body>
+    <div class="flex-container">    
+    <header>
+    <a href="Home.html" id="home"><img src="../images/logo.png" style="width: 250px; height:80px" alt="main logo"> </a>
+    <a href="/login.html" id="login">Login / Sign Up</a>
+</header>
+
+<nav id="menubar">
+    <ul>
+        <li class="list"><a href="category.html">Category</a>
+        <ul div class="catt">
+            <a href="Teen.html"> Teen</a>
+            <a href="Youth.html"> Youth</a>
+            <a href="Scitizen.html"> Senior  Citizen</a>
+        </ul>
+        </li>
+
+        <li><a href="product.html">Products </a></li>
+        <li><a href="Activity.html">Account Activity </a></li>
+        <li id="payment_menu"> <a href="payment.html">Payment</a></li>
+        <li id="searchbox_input">
+            <input type="text" placeholder="Search for books & authors.."   >
+        </li>
+        <li id="searchbox_button"><button type="submit" placeholder="Search book" value="Search Book">Search</button> </li>
+         
+    </ul>
+</nav>
+<main>
+    <div id="wrapper">
+        <div class="container">
+          <h1>Cart
+          </h1>
+          <p><a href="#">a wedding on the beach <img id='book1' src="../images/a wedding on the beach.jpg" alt='book1' height="50px" width="30px" ></a> <span class="price">$15</span></p>
+          <p><a href="#">Product 2<img id='book1' src="../images/a wedding on the beach.jpg" alt='book1' height="50px" width="30px" ></a> <span class="price">$5</span></p>
+          <p><a href="#">Product 3<img id='book1' src="../images/a wedding on the beach.jpg" alt='book1' height="50px" width="30px" ></a> <span class="price">$8</span></p>
+          <p><a href="#">Product 4<img id='book1' src="../images/a wedding on the beach.jpg" alt='book1' height="50px" width="30px" ></a> <span class="price">$2</span></p>
+          <hr>
+          <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+        </div>
+      </div>
+      <div id="shippingaddress">
+        <h3>Billing Address</h3>
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="John M. Doe"> <br><br>
+        <label for="email"> Email</label>
+        <input type="text" id="email" name="email" placeholder="john@example.com"><br><br>
+        <label for="adr"> Address</label>
+        <input type="text" id="adr" name="address" placeholder="542 W. 15th Street"><br><br>
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" placex holder="New York"><br><br>
+
+        
+            <label for="state">State</label>
+            <input type="text" id="state" name="state" placeholder="NY"><br><br>
+          
+          
+            <label for="zip">Zip</label>
+            <input type="text" id="zip" name="zip" placeholder="10001"><br><br>
+            <a id='payment_init'href="../payment.html"><input type="button" value="Proceed to Pay" /></a>
+      </div>
+    
+</main>
+
+ <footer>
+    <nav id="bottombar">
+        
+        
+    </footer>
+
+</body>
+</html>
