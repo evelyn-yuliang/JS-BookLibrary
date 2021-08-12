@@ -48,41 +48,6 @@ bookabook.com  Features :
 * Html 5
 * CSS
 
-#### List of features: (Tentative)
-###### Home ( logo ) : Sayali 
-*  Gives an overview of website
-*  Show cases the offers/features
-*  Navigational Links
-###### Login/Sign Up ( right top ) : ( Sahith )
-* Customer can register/login with the details.
-* Sign in with social accounts
-###### About/Contact Us ( footer / header )( Charmi)
-* Know what the website is about.
-* Contact information
-###### Category/Genre ( on hover and then clicked on any we shd generate a category page )( Sayali)
-* Similar books displayed in a page( Author, Interests, …)
-###### Payment( after clicking on rent option in product page/account ) ( Sahith )
-* Modes of payment ( Credit/Debit/COD)
-* promo codes (n/a)
-###### Products html,css,json,js (image of the Book, name of Book, buying option)  ( Yu liang) 
-* precise details of a book( Cost, Review, ratings , year of publish, …)
-###### Account Activity Info ( purchase history ) ( Charmi )
-* Recent purchases
-* Due dates ( Renew)
-###### Rules, T&C ( Sayali )
-* Explains the all the policies followed
-###### Search  ( Sahith)
-* Helps to discover a book by interests ( Displays all books at a page according to search term
-###### Tracking  ( Charmi  )
-* Tracks the book to be delivered
-###### Cart ( Team )
-* Selected books will be listed.
-* Option to remove a book
-###### Donate-html,css,js( Yu Liang )
-* Features Donators of book.
-###### FAQ’s-html,css,json,js ( Yu Liang )
-* Customer Support for the queries.
-* 
 [Bookabook]: <https://sahithkaluvala.github.io/bookabooktest/Home.html>
 [Payment]:   <https://sahithkaluvala.github.io/bookabooktest/payment.html>
 [Cart]:   <https://sahithkaluvala.github.io/bookabooktest/cart.html>
